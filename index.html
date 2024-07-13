@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wood Selling and Cutting Business</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WoodCraft</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#gallery" onclick="showSection('gallery')">Gallery</a></li>
+                <li><a href="#enquiry" onclick="showSection('enquiry')">Enquiry</a></li>
+                <li><a href="#updates" onclick="showSection('updates')">New Updates</a></li>
+                <li><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="content-section">
+        <h2>Welcome to WoodCraft</h2>
+        <p>Your one-stop shop for premium wood products and cutting services.</p>
+    </section>
+
+    <section id="gallery" class="content-section">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="wood1.jpg" alt="Wood Image 1">
+            <img src="wood2.jpg" alt="Wood Image 2">
+            <img src="wood3.jpg" alt="Wood Image 3">
+        </div>
+    </section>
+
+    <section id="enquiry" class="content-section">
+        <h2>Enquiry</h2>
+        <h2>We have no Updates Currently</h2>
+    </section>
+
+    <section id="updates" class="content-section">
+        <h2>New Updates</h2>
+        <p>Check out our latest updates and offerings here.</p>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WoodCraft. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
